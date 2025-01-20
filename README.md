@@ -1,4 +1,4 @@
-# AppAxiomaPos v1.0
+# AxiomaPos V0.0.1 
 
 ## **Sistema POS Versátil**
 
@@ -8,7 +8,7 @@ El sistema AxiomaPos versátil está diseñado para optimizar la gestión de ven
 
 ## **Imagen de Portada** 
 
-![Captura de pantalla 2024-11-22 175218](https://github.com/user-attachments/assets/aab4a0aa-e1e6-4347-8ce1-8dad2123f8aa)
+![Captura de pantalla 2024-11-29 141021](https://github.com/user-attachments/assets/748a9027-ace3-45f6-a210-96bbad381c32)
 
 ## **Objetivo del Proyecto**
 
@@ -68,14 +68,11 @@ El sistema está diseñado para automatizar la gestión de ventas, inventarios y
 
 ## **Capturas de Pantalla** 
 
-### **Gestión de Empleados**
-![Captura de pantalla 2025-01-07 215144](https://github.com/user-attachments/assets/5302e537-9f19-4329-94f8-92c6ef09158f)
+### **Gestión de Ventas**
+![image](https://github.com/user-attachments/assets/1cf20a84-2a40-4d4d-a1f1-5d37ca0550a3)
 
-### **Gestión de Categorías**
-![image](https://github.com/user-attachments/assets/4f1500eb-8202-4612-8aa3-5f0fb1bd0076)
-
-### **Panel de Ventas**
-![image](https://github.com/user-attachments/assets/3b455efd-0fa3-44dd-a11b-4529a87e41ef)
+### **Menu**
+![image](https://github.com/user-attachments/assets/1e1f8574-6f35-430d-9783-6c24c1c3e347)
 
 ## **Video Demo (Opcional)**
 
@@ -87,27 +84,4 @@ git clone https://github.com/tu-repo/axioma-pos-frontend.git
 cd axioma-pos-frontend
 npm install
 npm start
-```
-### **Backend (Lavarel):**
-El backend está desarrollado en Laravel. Antes de ejecutarlo, asegúrate de tener instalado un entorno de desarrollo local, como Laragon.
-
-### **¿Cómo instalar Laragon?**
-Descarga e instala Laragon desde https://laragon.org/.
-Configura Laragon para que use PHP y MySQL, necesarios para Laravel.
-
-### **Notas adicionales:**
-- Crea una base de datos en phpMyAdmin (que viene incluido con Laragon) o en cualquier otro cliente
-- Configura el archivo .env de Laravel con los datos de tu base de datos
-  
-```bash
-DB_DATABASE=nombre_base_datos
-DB_USERNAME=tu_usuario
-DB_PASSWORD=tu_contraseña
-```
-
-```bash
-git clone https://github.com/tu-repo/axioma-pos-backend.git
-cd axioma-pos-backend 
-composer install 
-php artisan serve
 ```
